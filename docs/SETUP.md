@@ -21,7 +21,8 @@
 ```bash
 git clone https://github.com/credit-invisible/gemmas.git
 cd credit-invisible
-git checkout develop
+git checkout -b develop 
+# -b flag to create the branch
 ```
 
 ---
