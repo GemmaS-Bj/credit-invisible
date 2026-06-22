@@ -3,6 +3,7 @@
 CREATE TABLE merchants (
   id            UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   phone         VARCHAR(20) UNIQUE NOT NULL,
+  pin           VARCHAR(4) NOT NULL,
   name          VARCHAR(100) NOT NULL,
   business_name VARCHAR(150),
   sector        VARCHAR(50),          -- alimentation, textile, cosmétique…
